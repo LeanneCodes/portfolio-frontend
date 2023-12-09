@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+  --purple: #5c509c;
+  --mint: #b8eac7;
+  --green: #79c27b;
+  --pink: #c60f8e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-rgb: 0, 0, 0;
+    --purple: #5c509c;
+    --mint: #b8eac7;
+    --green: #79c27b;
+    --pink: #c60f8e;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
