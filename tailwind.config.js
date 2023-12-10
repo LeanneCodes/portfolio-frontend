@@ -8,10 +8,24 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        slab: ['var(--font-roboto-slab)'],
-        mont: ['var(--font-inter)'],
-      }
+        // Use Roboto Slab for headings
+        'heading': ['Roboto Slab', 'serif'],
+        // Use Montserrat for body
+        'body': ['Montserrat', 'sans-serif'],
+      },
     },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'white': '#ffffff',
+      'purple': '#5c509c',
+      'mint': '#b8eac7',
+      'green': '#79c27b',
+      'pink': '#c60f8e',
+      'black': '#000000',
+    }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
