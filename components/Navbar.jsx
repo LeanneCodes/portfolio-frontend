@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav className='flex flex-col md:flex-row justify-between p-10 font-body'>
+    <nav className='flex flex-col md:flex-row justify-between py-10 px-72 font-body'>
         <div>
             <a href="#home" className='font-heading text-3xl'>Leanne Goldsmith</a>
         </div>
