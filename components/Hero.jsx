@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <div className='flex flex-col md:flex-row justify-around items-center py-20 px-96 bg-gradient-to-r from-purple to-pink text-white font-body'>
+    <div className='flex flex-col sm:space-y-5 sm:py-20 h-30 md:space-y-0 md:flex-row justify-center items-center py-10 bg-gradient-to-r from-purple to-pink text-white font-body'>
         <div>
             <Image
                 src="/portfolio-photo.png"
@@ -13,9 +13,9 @@ const Hero = () => {
                 height={300}
             />
         </div>
-        <div className='flex flex-col justify-around text-center h-48'>
+        <div className='flex flex-col space-y-4 justify-around text-center w-1/2'>
             <div>
-                <h1 className='text-5xl font-heading'>Leanne Goldsmith</h1>
+                <h1 className='sm:mt-10 md:mt-0 text-5xl font-heading'>Leanne Goldsmith</h1>
                 <h2 className='text-xl mt-2'>Junior Frontend Developer</h2>
             </div>
             <p>Passionate Junior Frontend Developer crafting seamless digital experiences</p>

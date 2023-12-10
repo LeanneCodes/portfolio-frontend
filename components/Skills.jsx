@@ -20,7 +20,7 @@ const Skills = () => {
   ];
 
   return (
-    <div id='skills' className='font-body pb-20 px-72 text-center'>
+    <div id='skills' className='sm:px-16 font-body pb-20 md:px-48 text-center'>
       <h3 className='font-heading text-center text-2xl mb-5'>Skills</h3>
       <hr className='w-1/12 border-mint border-2 mx-auto mb-10' />
       <p>Current tech stack that I engage with most frequently, either through my current role or via personal projects.</p>
