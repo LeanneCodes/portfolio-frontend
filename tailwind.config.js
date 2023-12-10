@@ -23,6 +23,7 @@ module.exports = {
       'green': '#79c27b',
       'pink': '#c60f8e',
       'black': '#000000',
+      'gray': 'rgb(107 114 128)',
     }
   },
   plugins: [

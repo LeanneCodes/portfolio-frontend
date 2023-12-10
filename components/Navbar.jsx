@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className='flex flex-col md:flex-row md:text-xl justify-between p-10 font-heading'>
+    <nav className='flex flex-col md:flex-row md:text-2xl justify-between p-10 font-heading'>
         <div>
             <a href="#home">Leanne Goldsmith</a>
         </div>
