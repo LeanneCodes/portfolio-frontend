@@ -24,6 +24,7 @@ module.exports = {
       'pink': '#c60f8e',
       'black': '#000000',
       'gray': 'rgb(107 114 128)',
+      'slate': '#0f172a',
     }
   },
   plugins: [
