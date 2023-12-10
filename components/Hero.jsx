@@ -16,10 +16,10 @@ const Hero = () => {
         <div className='flex flex-col justify-around text-center h-48'>
             <div>
                 <h1 className='text-5xl font-heading'>Leanne Goldsmith</h1>
-                <h3 className='text-xl mt-2'>Junior Frontend Developer</h3>
+                <h2 className='text-xl mt-2'>Junior Frontend Developer</h2>
             </div>
             <p>Passionate Junior Frontend Developer crafting seamless digital experiences</p>
-            <Link href="https://docs.google.com/document/d/1Nt3uCrIML4-v-uIG6yciaNUGDrvdKN2kt5WZR9tNfLA/edit#heading=h.x8fm1uorkbaw" target='_blank' className='font-semibold hover:text-pink'>Preview CV</Link>
+            <Link href="https://docs.google.com/document/d/1Nt3uCrIML4-v-uIG6yciaNUGDrvdKN2kt5WZR9tNfLA/edit#heading=h.x8fm1uorkbaw" target='_blank' className='font-semibold hover:text-green'>Preview CV</Link>
         </div>
     </div>
   )
