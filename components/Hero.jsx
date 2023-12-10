@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <div className='flex flex-col md:flex-row justify-around items-center py-20 px-96 bg-purple text-white font-body'>
+    <div className='flex flex-col md:flex-row justify-around items-center py-20 px-96 bg-gradient-to-r from-purple to-pink text-white font-body'>
         <div>
             <Image
                 src="/portfolio-photo.png"
